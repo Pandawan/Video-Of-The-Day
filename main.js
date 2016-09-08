@@ -44,7 +44,7 @@ function onYouTubeIframeAPIReady() {
     width: '853',
     videoId: id,
     events: {
-      'onReady': onPlayerReady
+      //'onReady': onPlayerReady
     }
   });
 }
