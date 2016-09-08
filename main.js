@@ -20,7 +20,8 @@ function getId () {
     chart: 'mostPopular'
   });
   request.execute(function(response) {
-    var str = JSON.stringify(response.result);
+    var str = JSON.stringify(response.result)
+    console.log(str)
   });
   setup()
 }
