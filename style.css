@@ -1,0 +1,13 @@
+html {
+  text-align: center;
+  font-family: 'Helveltica', 'Arial', sans-serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: dodgerblue;
+}
